@@ -1,0 +1,33 @@
+.calculatrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.calculatrice input, .calculatrice select, .calculatrice button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.calculatrice button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.calculatrice button:hover {
+    background-color: #45a049;
+}
+
+.calculatrice input[type="text"] {
+    background-color: #f0f0f0;
+}
